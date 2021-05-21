@@ -1,0 +1,12 @@
+version = 1
+
+test_patterns = ["[![Discord Bots](https://top.gg/api/widget/servers/838474856983035966.svg)](https://top.gg/bot/838474856983035966)"]
+
+exclude_patterns = ["[![Discord Bots](https://top.gg/api/widget/servers/838474856983035966.svg)](https://top.gg/bot/838474856983035966)"]
+
+[[analyzers]]
+name = "python"
+enabled = true
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
